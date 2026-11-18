@@ -26,9 +26,9 @@
 - [x] GitHub Actions secrets configured and CD pipeline (`cd.yml`) executed & **PASSED (Success, 1m 16s)**
 - [x] Personal fork (`Taran790/MSE-2-SSED`, `main`) updated and verified
 - [x] Real screenshots & logs saved in `deployment-evidence/`
-- [x] Final submission documents generated (`202401100300263_Taranjeet_Singh_Bagga.doc` & `.pdf`)
+- [x] Final submission documents generated in exact 5-section question-paper format (`202401100300263_Taranjeet_Singh_Bagga.pdf` & `202401100300263_Taranjeet_Singh_Bagga.docx`)
 - [x] Viva preparation (`VIVA_QUESTIONS.md`) & Practical Command Sheet (`PRACTICAL_COMMANDS.md`) created
-- [ ] **Final Action for Student:** Open the Pull Request on GitHub using the exact ready-to-paste template in Section 10 below (requires your signed-in GitHub browser session), then upload the `.pdf` / `.doc` to Moodle and attach to your PR.
+- [x] Final Pull Request created: https://github.com/atindeRR/MSE-2-SSED-Morning/pull/46 (`DOCKER-EXAM | 202401100300263 | Taranjeet Singh Bagga | D`)
 
 ---
 
@@ -107,30 +107,29 @@
 ## 6. GitHub Actions CI/CD Verification
 
 - **Workflow Name:** `Docker Practical - Publish and Verify` (`.github/workflows/cd.yml`)
-- **CD Workflow Run URL:** https://github.com/Taran790/MSE-2-SSED/actions/runs/44244755677
-- **Job URL:** https://github.com/Taran790/MSE-2-SSED/actions/runs/44244755677/job/134600941330
-- **Commit:** `411e99b` (`main`)
-- **Final Status:** **Success** (`1m 16s` total, all 15 steps green)
+- **Latest CD Workflow Run URL (Push-triggered #2):** https://github.com/Taran790/MSE-2-SSED/actions/runs/44245697870 (`main`, commit `8854f70`, **Success**, `1m 7s`)
+- **Initial CD Workflow Run URL (Manual #1):** https://github.com/Taran790/MSE-2-SSED/actions/runs/44244755677 (`main`, commit `411e99b`, **Success**, `1m 16s`)
+- **Final Status:** **Success** (all 15 steps green on both runs)
 
 ---
 
 ## 7. Submission Documents & Evidence Directory
 
-- **Word Document (`.doc`):** `202401100300263_Taranjeet_Singh_Bagga.doc`
-- **PDF Document (`.pdf`):** `202401100300263_Taranjeet_Singh_Bagga.pdf`
+- **Mandatory PDF Document (`.pdf`):** `202401100300263_Taranjeet_Singh_Bagga.pdf` (exact 5-section question-paper format)
+- **Editable Word Document (`.docx`):** `202401100300263_Taranjeet_Singh_Bagga.docx` (exact 5-section question-paper format)
 - **Evidence Directory:**
   - `deployment-evidence/local/` — container lists, images, logs, Jest output, persistence test, TaskFlow UI & `/health` screenshots
   - `deployment-evidence/dockerhub/` — verified public tag digests
   - `deployment-evidence/deploy/` — `docker-compose.deploy.yml` pull, containers, health, logs, Jest output
-  - `deployment-evidence/github-actions/` — `github-fork-repo.png`, `cd-workflow-list.png`, `cd-run-summary.png`, `cd-run-summary-full.png`, `cd-run-job.png`
+  - `deployment-evidence/github-actions/` — `github-fork-repo.png`, `cd-workflow-list.png`, `cd-run2-summary.png`, `cd-run2-job.png`, `pr-46.png`, `pr-46-checks.png`
 
 ---
 
-## 8. Pull Request Submission Details (Ready to Create)
+## 8. Pull Request Submission Details (Submitted & Open)
 
-- **Direct Create-PR Link:** https://github.com/atindeRR/MSE-2-SSED-Morning/compare/main...Taran790:MSE-2-SSED:main
-- **Base Repository:** `atindeRR/MSE-2-SSED-Morning` (verified fork parent) | **Base Branch:** `main`
-- **Head Repository:** `Taran790/MSE-2-SSED` | **Compare Branch:** `main`
+- **Final Pull Request URL:** https://github.com/atindeRR/MSE-2-SSED-Morning/pull/46
+- **Base Repository:** `atindeRR/MSE-2-SSED-Morning` (`main`)
+- **Head Repository:** `Taran790/MSE-2-SSED` (`main`)
 - **Pull Request Title:**
   ```text
   DOCKER-EXAM | 202401100300263 | Taranjeet Singh Bagga | D
